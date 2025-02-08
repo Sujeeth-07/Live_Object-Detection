@@ -7,6 +7,7 @@ This project demonstrates object detection using the YOLOV3 model.
 To run this project,you need to install the following python packages:
 
 1.pip install numpy
+
 2.pip install pip install opencv-python
 
 #Dataset
