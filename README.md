@@ -1,9 +1,11 @@
 Child Safety Object Detection
 
-Overview
+Overview:
+
 This project uses Flask to implement a real-time object detection system for child safety. It captures video from the client's camera, processes the frames using a trained machine learning model, and then detects objects in the video stream (such as people, toys, or other potential safety risks). The processed video is streamed back to the client with the detected objects highlighted.
 
 Technologies Used
+
 Flask: Web framework to serve the application.
 HTML-CSS-JS: Serves UI and Frontend
 
