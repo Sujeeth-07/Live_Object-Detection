@@ -1,14 +1,24 @@
-#Object Detection using YOLOV3.
+Child Safety Object Detection
 
-This project demonstrates object detection using the YOLOV3 model.
+Overview
+This project uses Flask to implement a real-time object detection system for child safety. It captures video from the client's camera, processes the frames using a trained machine learning model, and then detects objects in the video stream (such as people, toys, or other potential safety risks). The processed video is streamed back to the client with the detected objects highlighted.
+
+Technologies Used
+Flask: Web framework to serve the application.
+HTML-CSS-JS: Serves UI and Frontend
+
 
 #Installation:
 
-To run this project,you need to install the following python packages:
+pip install -r requirements.txt
 
-1.pip install numpy
+requirements.txt
 
-2.pip install pip install opencv-python
+flask
+opencv-python
+numpy
+Pillow
+gunicorn
 
 #Dataset
 
