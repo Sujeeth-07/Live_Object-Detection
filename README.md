@@ -16,11 +16,15 @@ pip install -r requirements.txt
 
 requirements.txt
 
-flask
-opencv-python
-numpy
-Pillow
-gunicorn
+-flask
+
+-opencv-python
+
+-numpy
+
+-Pillow
+
+-gunicorn
 
 # Dataset
 
